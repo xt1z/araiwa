@@ -170,7 +170,7 @@ body {
 
 
 .container {
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(3.5px);
   backdrop-filter: blur(3.5px);
   position: absolute;
   color: #fff;
