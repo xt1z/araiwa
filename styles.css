@@ -161,7 +161,7 @@ body {
   font-family: "Noto Sans Thai", sans-serif;
   height: 100vh;
   overflow: hidden;
-  background-image: url("https://wallpapers.com/images/hd/minecraft-art-1920-x-969-wallpaper-3njc78g7szvg6mgx.jpg");
+  background-image: url("conan.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -170,7 +170,6 @@ body {
 
 
 .container {
-  -webkit-backdrop-filter: blur(3.5px);
   backdrop-filter: blur(3.5px);
   position: absolute;
   color: #fff;
@@ -184,9 +183,11 @@ body {
 }
 
 h1 {
-  font-family: "Silkscreen", sans-serif;
-  font-weight: lighter;
-  font-size: 100px;
+  margin-top: 87px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-weight: bolder;
+  font-size: 110px;
   text-align: center;
 }
 
@@ -207,7 +208,7 @@ p {
           box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   padding-block: 0.5rem;
   padding-inline: 1.25rem;
-  background-color: #fcc072;
+  background-color: #fc7272;
   border-radius: 9999px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -405,7 +406,7 @@ p {
 }
 
 .navbar a:hover{
-  color: #fcc072;
+  color: #fc7272;
 }
 
 #check {
@@ -433,7 +434,16 @@ p {
 }
 
 @media (max-width:768px) {
+
+  body {
+    background-image: url("conan.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 60%;
+  }
+
   h1 {
+    margin-top: 0;
     font-size: 50px;
   }
 
@@ -517,7 +527,7 @@ p {
 }
 
 k {
-  color: #fcc072;
+  color: #fc7272;
 }
 
 
