@@ -281,6 +281,7 @@ k {
 }
 
 .section1 h2 {
+  font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
 }
 
@@ -295,6 +296,7 @@ k {
 
 
 .cardsection {
+  font-family: "Bebas Neue", sans-serif;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
@@ -324,6 +326,7 @@ k {
   background-color: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .sec2content h2{
@@ -347,6 +350,7 @@ k {
 .sec3content p{
   text-align: center;
   margin: auto;
+  font-family: "Kanit", sans-serif;
 }
 
 .sec4content h2{
