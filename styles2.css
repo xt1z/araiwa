@@ -1157,6 +1157,36 @@ footer {
 
 /* Breakpoints */
 
+@media (max-width:1367px) {
+  .section2 {
+    margin: auto;
+  }
+
+  .cardsection {
+    margin: auto;
+  }
+
+  .cardex1 {
+    margin-left: 100px;
+  }
+
+  .cardex2 {
+    margin-left: 100px;
+  }
+
+  .cardex3 {
+    margin-left: 100px;
+  }
+
+  .section3 {
+    margin: auto;
+  }
+
+  .sec3content {
+    margin-left: 110px;
+  }
+}
+
 @media (max-width:1280px) {
   .cardsection2 {
     grid-template-columns: 1fr;
