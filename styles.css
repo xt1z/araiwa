@@ -162,7 +162,7 @@ body {
   font-family: "Noto Sans Thai", sans-serif;
   color: #fff;
   height: 100vh;
-  background-image: url("https://images.unsplash.com/photo-1612414540912-3de0bba3a72b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1621619856624-42fd193a0661?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -695,7 +695,7 @@ p {
 }
 
 .navbar a {
-  font-family: "Silkscreen", sans-serif;
+  font-family: Poppins;
   font-size: 1.15rem;
   color: #fff;
   text-decoration: none;
@@ -803,25 +803,6 @@ p {
 /* End Breakpoints */
 
 
-
-@media (min-aspect-ratio:16/9) {
-  .back-video {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-aspect-ratio:16/9) {
-  .back-video {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media (max-width: 767px) {
-  .back-video {
-    object-fit: contain; /* Change object-fit to contain for smaller screens */
-  }
-}
 
 k {
   color: #6925d8;

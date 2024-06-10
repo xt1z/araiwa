@@ -249,7 +249,7 @@ body {
   margin: 0;
   padding: 0;
   /* Replace with your blurred background image */
-  background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
@@ -1127,7 +1127,7 @@ footer {
 }
 
 .navbar a {
-  font-family: "Silkscreen", sans-serif;
+  font-family: Poppins;
   font-size: 1.15rem;
   color: #fff;
   text-decoration: none;
@@ -1588,6 +1588,8 @@ footer {
     transition-delay: calc(.15s * var(--i));
   }
 }
+
+
 
 /* Emd Breakpoints */
 
