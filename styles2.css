@@ -249,14 +249,14 @@ body {
   margin: 0;
   padding: 0;
   /* Replace with your blurred background image */
-  background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
 }
 
 k {
-  color: #6925d8;
+  color: #142ec0;
 }
 
 .sec {
@@ -272,6 +272,7 @@ k {
 .section1 {
   padding: 30px;
   margin: auto;
+  
   
 }
 
@@ -394,9 +395,9 @@ k {
 }
 
 footer {
-  background-color: rgb(48, 48, 48);
+  background-color: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(3px);
   
 }
 
@@ -1036,8 +1037,8 @@ footer {
   height: 2000%;
   width: 200%;
   border-radius: inherit;
-  background: #5146e9;
-  background: linear-gradient(to right, #7c8df1, #350868);
+  background: #000405;
+  background: linear-gradient(to right, #0e25a8, #2653e6);
   transform-origin: center;
   animation: moving 4.8s linear infinite paused;
   transition: all 0.88s cubic-bezier(0.23, 1, 0.32, 1);
@@ -1136,7 +1137,7 @@ footer {
 }
 
 .navbar a:hover{
-  color: #6925d8;
+  color: #142ec0;
 }
 
 #check {
@@ -1376,6 +1377,8 @@ footer {
   .sec4content iframe {
     width: fit-content;
   }
+
+
 }
 
 
@@ -1479,6 +1482,7 @@ footer {
   }
   .sec3content {
     margin-top: 30px;
+    margin-left: 30px;
   }
   .sec3content p{
     margin-left: 5px;
